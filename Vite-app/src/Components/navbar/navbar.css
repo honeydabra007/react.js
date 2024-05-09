@@ -1,0 +1,39 @@
+.box{
+    display: flex;
+    justify-content: space-between;
+   
+    padding-inline: 80px;
+}
+.box1{
+    margin-top: 30px;
+}
+.box2{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    font-size: 1.4em;
+    color: grey;
+    font-weight: 300;
+}
+.box2 p{
+    margin-top: 30px;
+}
+.box2 p:hover{
+    color: blue;
+}
+.box2 button{
+    border: 1px solid blue;
+    color: blue;
+    height: 60px;
+    width: 180px;
+    margin-top: 15px;
+    font-size: 0.8em;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+
+}
+button:hover{
+    box-shadow: 5px 5px 0 0 blue;
+    transform: scale(1.2);
+}
